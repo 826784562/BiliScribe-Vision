@@ -1,0 +1,7 @@
+interface:
+  display_name: "BiliScribe-Vision"
+  short_description: "Traceable notes from transcripts and video frames"
+  brand_color: "#00A1D6"
+  default_prompt: "Use $bili-scribe-vision to turn this course into source-traceable study materials."
+policy:
+  allow_implicit_invocation: true
