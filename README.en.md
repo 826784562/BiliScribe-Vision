@@ -1,5 +1,7 @@
 # BiliScribe-Vision
 
+[![Offline checks](https://github.com/826784562/BiliScribe-Vision/actions/workflows/ci.yml/badge.svg)](https://github.com/826784562/BiliScribe-Vision/actions/workflows/ci.yml)
+
 [中文](README.md) · [Quick start](docs/quickstart.md) · [Examples](examples/README.md)
 
 Turn synchronized video frames and transcripts into study notes with actionable, evidence-backed walkthroughs.
@@ -34,6 +36,6 @@ Frame proposals are heuristic. Brief menus, cursor actions and same-slide parame
 
 ## Contribute
 
-See [CONTRIBUTING](CONTRIBUTING.md), [security guidance](SECURITY.md) and [roadmap](docs/roadmap.md). Use anonymized, redistributable reproductions. CI is configured for Windows and Ubuntu on Python 3.11/3.12; its remote success is not claimed until it runs.
+See [CONTRIBUTING](CONTRIBUTING.md), [security guidance](SECURITY.md) and [roadmap](docs/roadmap.md). Use anonymized, redistributable reproductions. CI is configured for Windows and Ubuntu on Python 3.11/3.12; all four platform/version jobs have passed; the badge shows the current status.
 
 GPL-3.0-or-later. Original copyright and third-party attribution are preserved in [LICENSE](LICENSE) and [NOTICE](NOTICE). Derived from the v12 visual-understanding work. See the companion [BiliScribe-Audio](https://github.com/826784562/BiliScribe-Audio).

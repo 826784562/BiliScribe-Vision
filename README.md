@@ -6,6 +6,8 @@
   <p>Codex Skill · Python 3.11+ · GPL-3.0-or-later</p>
 </div>
 
+[![Offline checks](https://github.com/826784562/BiliScribe-Vision/actions/workflows/ci.yml/badge.svg)](https://github.com/826784562/BiliScribe-Vision/actions/workflows/ci.yml)
+
 视频关键帧 + 同时间窗转录 → 当前 Codex 实际看图 → PPT/PDF 融合 → 讲义与操作步骤。
 
 适合课程复习、公式与知识点整理、PPT 类教学视频和软件操作复现。讲义沿课程顺序组织，每个课堂结论保留讲次、时间与来源；课本补充和 AI 补解单独标记。
@@ -88,7 +90,7 @@ python -m unittest discover -s tests -v
 python .agents/skills/bili-scribe-vision/scripts/test_pipeline.py -v
 ```
 
-CI 配置覆盖 Windows / Ubuntu 与 Python 3.11 / 3.12，离线检查不下载真实课程或 ASR 模型。工作流首次在 GitHub 成功运行前不宣称 CI 已通过。欢迎提供可公开复现的错误和授权示例，见 [贡献指南](CONTRIBUTING.md)、[行为准则](CODE_OF_CONDUCT.md)、[安全说明](SECURITY.md)。
+CI 配置覆盖 Windows / Ubuntu 与 Python 3.11 / 3.12，离线检查不下载真实课程或 ASR 模型。四组远端 CI 已通过，含 Windows/Ubuntu 与 Python 3.11/3.12；当前结果见上方状态徽章。欢迎提供可公开复现的错误和授权示例，见 [贡献指南](CONTRIBUTING.md)、[行为准则](CODE_OF_CONDUCT.md)、[安全说明](SECURITY.md)。
 
 ## 许可证与致谢
 
